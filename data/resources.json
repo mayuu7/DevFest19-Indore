@@ -1,17 +1,17 @@
 {
-  "title": "GDG DevFest Season 2018",
+  "title": "GDG DevFest 2019",
   "description": "Be a hero. Be a GDG!",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "October 12-13, 2018",
-  "partnershipProposition": "https://bit.ly/dfua17-partners",
+  "dates": "September 22, 2019",
+  "partnershipProposition": "",
   "share": "Share",
   "followOur": "Follow our",
   "followUs": "Follow us",
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
-  "buyTicket": "Buy ticket",
+  "buyTicket": "Get ticket",
   "signIn": "Sign in",
   "signOut": "Sign out",
   "viewHighlights": "View Highlights",
@@ -24,6 +24,7 @@
   "time": "Time",
   "faq": "/data/faq.md",
   "cod": "/data/cod.md",
+  "cfp": "https://sessionize.com/devfest19-indore",
   "footer": {
     "blog": "Blog"
   },
@@ -36,43 +37,18 @@
       "title": "About",
       "links": [
         {
-          "name": "GDG Lviv",
-          "url": "http://lviv.gdg.org.ua/",
+          "name": "GDG Indore",
+          "url": "https://gdgindore.in/",
           "newTab": true
         },
         {
           "name": "Google Developers Group",
-          "url": "https://developers.google.com/",
+          "url": "https://developers.google.com/groups/",
           "newTab": true
         },
         {
           "name": "Meet the Team",
-          "url": "https://devfest.gdg.org.ua/team/",
-          "newTab": true
-        }
-      ]
-    },
-    {
-      "title": "Explore Past DevFests",
-      "links": [
-        {
-          "name": "DFUA 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "name": "DFUA 2014",
-          "url": "https://dfua14.firebaseapp.com//",
-          "newTab": true
-        },
-        {
-          "name": "DFUA 2015",
-          "url": "https://dfua15.firebaseapp.com/",
-          "newTab": true
-        },
-        {
-          "name": "DFUA 2016",
-          "url": "https://dfua16.firebaseapp.com/",
+          "url": "https://gdgindore.in/team/",
           "newTab": true
         }
       ]
@@ -82,22 +58,22 @@
       "links": [
         {
           "name": "Partnership Proposition",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
+          "url": "",
           "newTab": true
         },
         {
           "name": "Info Partnership Proposition",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
+          "url": "",
           "newTab": true
         },
         {
           "name": "Media Kit",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
+          "url": "",
           "newTab": true
         },
         {
           "name": "Call for Papers",
-          "url": "https://drive.google.com/open?id=10tPuu_7ASM8C70SotqRqIW5Uzos9BzALilMMQPg_JvA",
+          "url": "https://sessionize.com/devfest19-indore",
           "newTab": true
         },
         {
@@ -114,38 +90,33 @@
     "title": "What you need to know, before you ask.",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Ukraine brings together the world class experts in Android, Web and Cloud technologies to Lviv for 2 days of sessions, workshops and showcases.",
+        "description": "GDG DevFest Indore brings together the world class experts in ML, Web and Cloud technologies to Indore for a day of sessions, workshops and showcases.",
         "label": "Explore featured session",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
-      },
-      "howItWas": {
-        "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
-        "label": "See how it was in 2016",
-        "youtubeId": "TdpbgRgz6eE"
       }
     },
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "900"
+        "number": "800"
       },
       "days": {
-        "label": "Days",
-        "number": "2"
+        "label": "Day",
+        "number": "1"
       },
       "sessions": {
         "label": "Sessions",
-        "number": "50"
+        "number": "TBD"
       },
       "tracks": {
         "label": "Tracks",
-        "number": "4"
+        "number": "2"
       }
     }
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+    "ticketsDetails": "Access to conference sections, breaks, lunch and party are determined by the ticket types. Accommodation is NOT a part of the tickets.",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
@@ -162,10 +133,10 @@
     "toast": "We will contact you soon!"
   },
   "featuredVideos": {
-    "title": "DFUA'16 featured videos",
+    "title": "GDG Indore featured videos",
     "callToAction": {
       "label": "See all videos",
-      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+      "link": "https://www.youtube.com/gdgindore"
     }
   },
   "blog": {
@@ -199,11 +170,11 @@
     }
   },
   "galleryBlock": {
-    "title": "#dfua16 highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "GDG Indore's highlights",
+    "description": "This year's events built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and other events.",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "link": "#"
     }
   },
   "mapBlock": {
@@ -218,16 +189,16 @@
     "emailAddress": "Email Address",
     "firstName": "First Name",
     "lastName": "Last Name",
-    "formTitle": "Get the latest updates, insights and news about GDG DevFest Ukraine sent to your inbox.",
+    "formTitle": "Get the latest updates, insights and news about GDG DevFest Indore sent to your inbox.",
     "emailRequired": "Please enter a valid email address.",
     "subscribe": "Subscribe",
     "subscribed": "Subscribed",
     "close": "Close",
-    "generalError": "Some error has occured. Please, try again later.",
+    "generalError": "An error has occurred. Please, try again later.",
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Indore](https://gdgindore.in/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Indore's audience to boost development of IT."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -260,7 +231,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "description": "<a href='https://gdgindore.in' target='_blank'>GDG Indore</a> with support of GGD Cloud, WTM Indore, and other local tech communities",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
@@ -284,5 +255,15 @@
       "part1": "Sign in with",
       "part2": "to continue."
     }
+  },
+  "filters": {
+    "title": "Filters",
+    "results": "Results",
+    "tags": "Tags",
+    "complexity": "Complexity",
+    "clear": "Clear all"
+  },
+  "addToHomeScreen": {
+    "cta": "Add to Home Screen"
   }
 }
