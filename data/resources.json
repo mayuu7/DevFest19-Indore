@@ -132,24 +132,6 @@
     },
     "toast": "We will contact you soon!"
   },
-  "featuredVideos": {
-    "title": "GDG Indore featured videos",
-    "callToAction": {
-      "label": "See all videos",
-      "link": "https://www.youtube.com/gdgindore"
-    }
-  },
-  "blog": {
-    "published": "Published",
-    "suggested": "Up next"
-  },
-  "latestPostsBlock": {
-    "title": "The latest news",
-    "callToAction": {
-      "label": "View all stories",
-      "link": "/blog/"
-    }
-  },
   "speakers": {
     "skills": "Skills",
     "previousYears": "Years",
