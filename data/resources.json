@@ -143,11 +143,7 @@
   },
   "galleryBlock": {
     "title": "GDG Indore's highlights",
-    "description": "This year's events built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and other events.",
-    "callToAction": {
-      "label": "See all photos",
-      "link": "#"
-    }
+    "description": "This year's events built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and other events."
   },
   "mapBlock": {
     "title": "Location"

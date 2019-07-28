@@ -26,5 +26,8 @@
     "@babel/preset-env": "^7.0.0-beta.54",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.54",
     "rimraf": "^2.6.2"
+  },
+  "engines": {
+    "node": "8"
   }
 }
