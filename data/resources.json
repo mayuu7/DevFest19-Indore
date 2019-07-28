@@ -88,7 +88,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "800"
+        "number": "600"
       },
       "days": {
         "label": "Day",
@@ -129,6 +129,13 @@
       "link": "https://www.youtube.com/channel/UCr1VXInXX3h9wLIcnDe6vNw"
     }
   },
+  "latestPostsBlock": {
+  "title": "Our Previous Events",
+  "callToAction": {
+    "label": "View all events",
+    "link": "/blog/"
+  }
+},
   "speakers": {
     "skills": "Skills",
     "previousYears": "Years",
