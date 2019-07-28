@@ -122,6 +122,13 @@
     },
     "toast": "We will contact you soon!"
   },
+  "featuredVideos": {
+    "title": "DevFest Featured Videos",
+    "callToAction": {
+      "label": "See all videos",
+      "link": "https://www.youtube.com/channel/UCr1VXInXX3h9wLIcnDe6vNw"
+    }
+  },
   "speakers": {
     "skills": "Skills",
     "previousYears": "Years",
