@@ -53,13 +53,18 @@
       "title": "Event Resources",
       "links": [
         {
-          "name": "Partnership Proposition",
-          "url": "",
+          "name": "Call for Sponsors",
+          "url": "https://forms.gle/VvEDjn25UsN2KrBd6",
           "newTab": true
         },
         {
           "name": "Call for Papers",
           "url": "https://sessionize.com/devfest19-indore",
+          "newTab": true
+        },
+        {
+          "name": "Call for Volunteers",
+          "url": "https://forms.gle/PZMoztAs9W8Zq4co6",
           "newTab": true
         }
       ]
@@ -108,15 +113,7 @@
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Partners",
-    "button": "Become a partner",
-    "form": {
-      "title": "Become a partner!",
-      "submitLabel": "Submit",
-      "fullName": "Full Name",
-      "companyName": "Company Name"
-    },
-    "toast": "We will contact you soon!"
+    "title": "Partners"
   },
   "featuredVideos": {
     "title": "DevFest Featured Videos",
