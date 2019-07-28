@@ -91,8 +91,13 @@
     "callToAction": {
       "featuredSessions": {
         "description": "GDG DevFest Indore brings together the world class experts in ML, Web and Cloud technologies to Indore for a day of sessions, workshops and showcases.",
-        "label": "Explore featured session",
-        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "label": "Check out GDG Indore",
+        "link": "https://www.meetup.com/GoogleDeveloperGroupIndore/"
+      },
+      "howItWas": {
+        "description": "Described as Central India's largest Tech Conference, our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
+        "label": "See how it was in 2018",
+        "youtubeId": "s9IO5SAazzw"
       }
     },
     "statisticsBlock": {
