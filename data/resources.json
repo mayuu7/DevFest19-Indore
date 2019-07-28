@@ -6,7 +6,6 @@
   "dates": "September 22, 2019",
   "partnershipProposition": "",
   "share": "Share",
-  "followOur": "Follow our",
   "followUs": "Follow us",
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
@@ -25,9 +24,6 @@
   "faq": "/data/faq.md",
   "cod": "/data/cod.md",
   "cfp": "https://sessionize.com/devfest19-indore",
-  "footer": {
-    "blog": "Blog"
-  },
   "mySchedule": {
     "title": "My Schedule",
     "browseSession": "Browse sessions"
