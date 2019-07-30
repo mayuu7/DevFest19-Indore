@@ -213,7 +213,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='https://gdgindore.in' target='_blank'>GDG Indore</a> with support of GGD Cloud, WTM Indore, and other local tech communities",
+        "description": "<a href='https://gdgindore.in' target='_blank'>GDG Indore</a> with support of GDG Cloud, WTM Indore, and other local tech communities",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
