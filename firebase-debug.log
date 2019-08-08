@@ -1,0 +1,192 @@
+[debug] [2019-08-04T08:20:42.789Z] ----------------------------------------------------------------------
+[debug] [2019-08-04T08:20:42.795Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-08-04T08:20:42.796Z] CLI Version:   7.1.1
+[debug] [2019-08-04T08:20:42.796Z] Platform:      linux
+[debug] [2019-08-04T08:20:42.796Z] Node Version:  v8.11.1
+[debug] [2019-08-04T08:20:42.796Z] Time:          Sun Aug 04 2019 13:50:42 GMT+0530 (IST)
+[debug] [2019-08-04T08:20:42.797Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-04T08:20:42.814Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-04T08:20:42.816Z] > authorizing via signed-in user
+[debug] [2019-08-04T08:20:42.817Z] [iam] checking project devfest19indore for permissions ["firebase.projects.get"]
+[debug] [2019-08-04T08:20:42.821Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/devfest19indore:testIamPermissions  
+
+[debug] [2019-08-04T08:20:45.073Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-04T08:20:45.082Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/devfest19indore  
+ 
+[debug] [2019-08-04T08:20:48.338Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/adeen-s/Documents/Web Stuff/Devfest19indore'...
+[info] 
+[debug] [2019-08-04T08:20:48.357Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/devfest19indore/webApps/-/config  
+ 
+[info] ✔  functions: Using node@8 from host.
+[debug] [2019-08-04T08:20:48.405Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/devfest19indore/adminSdkConfig  
+ 
+[debug] [2019-08-04T08:20:53.961Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-04T08:20:54.213Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: ./build
+[info] ✔  hosting: Local server: http://localhost:5000
+[info] [hosting] Rewriting /src/apply-shim.min.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[info] [hosting] Rewriting /src/custom-style-interface.min.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[info] [hosting] Rewriting /bower_components/firebase/firebase-app.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[info] [hosting] Rewriting /bower_components/firebase/firebase-firestore.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[info] [hosting] Rewriting /bower_components/firebase/firebase-auth.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[info] [hosting] Rewriting /bower_components/firebase/firebase-messaging.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[debug] [2019-08-04T08:20:54.440Z] Accepted request GET /devfest19indore/us-central1/prerender/src/apply-shim.min.js.map --> prerender
+[debug] [2019-08-04T08:20:54.448Z] Accepted request GET /devfest19indore/us-central1/prerender/src/custom-style-interface.min.js.map --> prerender
+[debug] [2019-08-04T08:20:54.460Z] Accepted request GET /devfest19indore/us-central1/prerender/bower_components/firebase/firebase-firestore.js.map --> prerender
+[debug] [2019-08-04T08:20:54.468Z] Accepted request GET /devfest19indore/us-central1/prerender/bower_components/firebase/firebase-app.js.map --> prerender
+[debug] [2019-08-04T08:20:54.502Z] Accepted request GET /devfest19indore/us-central1/prerender/bower_components/firebase/firebase-auth.js.map --> prerender
+[debug] [2019-08-04T08:20:54.519Z] Accepted request GET /devfest19indore/us-central1/prerender/bower_components/firebase/firebase-messaging.js.map --> prerender
+[debug] [2019-08-04T08:20:55.558Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[debug] [2019-08-04T08:20:55.560Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:20:55.565Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-04T08:20:55.799Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:20:55.801Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:20:55.806Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:20:55.809Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-04T08:20:55.811Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:20:55.812Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[debug] [2019-08-04T08:20:55.814Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:20:55.817Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:20:55.819Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:20:55.825Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:20:55.826Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:20:55.827Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-04T08:20:55.829Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[debug] [2019-08-04T08:20:55.829Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:20:55.831Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:20:55.831Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-04T08:20:55.841Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-04T08:20:55.843Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-04T08:21:32.264Z] ----------------------------------------------------------------------
+[debug] [2019-08-04T08:21:32.266Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-08-04T08:21:32.266Z] CLI Version:   7.1.1
+[debug] [2019-08-04T08:21:32.267Z] Platform:      linux
+[debug] [2019-08-04T08:21:32.267Z] Node Version:  v8.11.1
+[debug] [2019-08-04T08:21:32.267Z] Time:          Sun Aug 04 2019 13:51:32 GMT+0530 (IST)
+[debug] [2019-08-04T08:21:32.267Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-04T08:21:32.273Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-04T08:21:32.273Z] > authorizing via signed-in user
+[debug] [2019-08-04T08:21:32.273Z] [iam] checking project devfest19indore for permissions ["firebase.projects.get"]
+[debug] [2019-08-04T08:21:32.275Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/devfest19indore:testIamPermissions  
+
+[debug] [2019-08-04T08:21:34.509Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-04T08:21:34.513Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/devfest19indore  
+ 
+[debug] [2019-08-04T08:21:35.332Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/adeen-s/Documents/Web Stuff/Devfest19indore'...
+[info] 
+[debug] [2019-08-04T08:21:35.337Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/devfest19indore/webApps/-/config  
+ 
+[info] ✔  functions: Using node@8 from host.
+[debug] [2019-08-04T08:21:35.350Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/devfest19indore/adminSdkConfig  
+ 
+[debug] [2019-08-04T08:21:36.219Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-04T08:21:36.237Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./build
+[info] ✔  hosting: Local server: http://localhost:5000
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions" for Cloud Functions...
+[debug] [2019-08-04T08:21:37.003Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[debug] [2019-08-04T08:21:37.003Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:21:37.007Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[info] [hosting] Rewriting /images/logos/logo.png to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[debug] [2019-08-04T08:21:43.135Z] Accepted request GET /devfest19indore/us-central1/prerender/images/logos/logo.png --> prerender
+[info] [hosting] Rewriting /images/backgrounds/home.png to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[debug] [2019-08-04T08:21:43.375Z] Accepted request GET /devfest19indore/us-central1/prerender/images/backgrounds/home.png --> prerender
+[debug] [2019-08-04T08:21:43.714Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:21:43.716Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:21:43.720Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-04T08:21:43.968Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:21:43.970Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:21:43.974Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[info] [hosting] Rewriting /favicon.ico to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[debug] [2019-08-04T08:23:10.848Z] Accepted request GET /devfest19indore/us-central1/prerender/favicon.ico --> prerender
+[debug] [2019-08-04T08:23:11.536Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:23:11.537Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:23:11.540Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[info] [hosting] Rewriting /src/apply-shim.min.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[info] [hosting] Rewriting /src/custom-style-interface.min.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[debug] [2019-08-04T08:23:16.788Z] Accepted request GET /devfest19indore/us-central1/prerender/src/custom-style-interface.min.js.map --> prerender
+[debug] [2019-08-04T08:23:16.797Z] Accepted request GET /devfest19indore/us-central1/prerender/src/apply-shim.min.js.map --> prerender
+[info] [hosting] Rewriting /bower_components/firebase/firebase-app.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[info] [hosting] Rewriting /bower_components/firebase/firebase-firestore.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[info] [hosting] Rewriting /bower_components/firebase/firebase-auth.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[info] [hosting] Rewriting /bower_components/firebase/firebase-messaging.js.map to http://localhost:5001/devfest19indore/us-central1/prerender for local Function prerender
+[debug] [2019-08-04T08:23:16.828Z] Accepted request GET /devfest19indore/us-central1/prerender/bower_components/firebase/firebase-app.js.map --> prerender
+[debug] [2019-08-04T08:23:16.837Z] Accepted request GET /devfest19indore/us-central1/prerender/bower_components/firebase/firebase-firestore.js.map --> prerender
+[debug] [2019-08-04T08:23:16.853Z] Accepted request GET /devfest19indore/us-central1/prerender/bower_components/firebase/firebase-auth.js.map --> prerender
+[debug] [2019-08-04T08:23:16.868Z] Accepted request GET /devfest19indore/us-central1/prerender/bower_components/firebase/firebase-messaging.js.map --> prerender
+[debug] [2019-08-04T08:23:18.527Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:23:18.531Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:23:18.538Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[debug] [2019-08-04T08:23:18.540Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:23:18.543Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:23:18.548Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-04T08:23:18.556Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[debug] [2019-08-04T08:23:18.557Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:23:18.559Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:23:18.560Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:23:18.566Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-04T08:23:18.573Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[debug] [2019-08-04T08:23:18.573Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:23:18.574Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:23:18.577Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-04T08:23:18.591Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "prerender"
+[debug] [2019-08-04T08:23:18.592Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-08-04T08:23:18.600Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"5.12.0","resolution":"/home/adeen-s/Documents/Web Stuff/Devfest19indore/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
