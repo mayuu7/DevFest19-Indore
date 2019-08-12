@@ -119,13 +119,6 @@
             "link": "https://www.youtube.com/channel/UCr1VXInXX3h9wLIcnDe6vNw"
         }
     },
-    "featuredVideos": {
-        "title": "DevFest Featured Videos",
-        "callToAction": {
-            "label": "See all videos",
-            "link": "https://www.youtube.com/channel/UCr1VXInXX3h9wLIcnDe6vNw"
-        }
-    },
     "latestPostsBlock": {
         "title": "Our Previous Events",
         "callToAction": {
