@@ -529,6 +529,7 @@ const galleryActions = {
 
 const _getTeamMembers = (teamId) => firebase.firestore()
   .collection('team').doc(teamId).collection('members')
+  .orderBy("name")
   .get()
   .then((snaps) => snaps.docs
     .map((snap) => Object.assign({}, snap.data(), { id: snap.id }))
